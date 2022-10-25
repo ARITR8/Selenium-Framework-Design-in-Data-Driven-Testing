@@ -13,8 +13,8 @@
 
     <!--  test listeners -->
     <listeners>
-        <listener class-name="com.framework.ux.utils.chapter10.TestNG_ConsoleRunner" />
-        <listener class-name="com.framework.ux.utils.chapter10.ExtentTestNGIReporterListener" />
+        <listener class-name="TestNG_ConsoleRunner" />
+        <listener class-name="ExtentTestNGIReporterListener" />
     </listeners>
 
     <!--  suite parameters -->
@@ -29,7 +29,7 @@
         <parameter name="excludePattern" value="" />-->
 
         <classes>
-            <class name="com.framework.ux.utils.chapter10.PassionTeaCoTest" />
+            <class name="PassionTeaCoTest" />
         </classes>
     </test>
 
@@ -41,7 +41,7 @@
         <parameter name="excludePattern" value="" />-->
 
         <classes>
-            <class name="com.framework.ux.utils.chapter10.PassionTeaCoTest" />
+            <class name="PassionTeaCoTest" />
         </classes>
     </test>
 
@@ -53,7 +53,7 @@
         <parameter name="excludePattern" value="" />-->
 
         <classes>
-            <class name="com.framework.ux.utils.chapter10.PassionTeaCoTest" />
+            <class name="selenium-java.PassionTeaCoTest" />
         </classes>
     </test>
 
